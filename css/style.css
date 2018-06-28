@@ -60,7 +60,7 @@ a {
 	display: -ms-flexbox;
 	display: flex;
 
-	padding-top: 50px;
+	padding-top: 49px;
 
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -89,7 +89,7 @@ a {
 	display: flex;
 
 	padding: 0;
-	padding-top: 14px;
+	padding-top: 12px;
 
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -171,7 +171,7 @@ a {
 }
 
 .list-features h2 {
-	margin: 20px 0 17px 2px;
+	margin: 19px 0 18px 2px;
 
 	text-transform: uppercase;
 }
@@ -195,10 +195,9 @@ a {
 }
 
 .list-features img {
-	margin-bottom: 4px;
+	margin-bottom: 7px;
 	margin-left: 2px;
 }
-
 
 .list-features p {
 	width: 62%;
@@ -280,7 +279,7 @@ a {
 	display: flex;
 
 	min-width: 900px;
-	margin-bottom: 30px;
+	margin-bottom: 28px;
 }
 .section-about h1 {
 	font-size: 45px;
@@ -307,7 +306,7 @@ a {
 }
 
 .aside img {
-	margin-bottom: 19px;
+	margin-bottom: 20px;
 	margin-left: 2px;
 
 	background-color: #ffffff;
@@ -316,7 +315,7 @@ a {
 .aside p {
 	font-weight: 500;
 
-	margin-bottom: 38px;
+	margin-bottom: 46px;
 	padding-left: 19px;
 
 	white-space: nowrap;
@@ -346,7 +345,7 @@ a {
 .feature-list li {
 	font-weight: 400;
 
-	padding: 0 0 29px 1px;
+	padding: 0 0 31px 1px;
 }
 
 .feature-list li:before {
@@ -560,7 +559,7 @@ sup {
 	position: absolute;
 
 	max-width: 219px;
-	padding: 34px 50px 47px;
+	padding: 36px 50px 47px;
 
 	background-color: #ffffff;
 }
@@ -703,7 +702,7 @@ sup {
 	font-weight: 800;
 	line-height: 36px;
 
-	margin: 6px 0 0 1px;
+	margin: 6px 0 0 2px;
 	padding: 0;
 }
 
@@ -1176,25 +1175,21 @@ sup {
 	animation-name: zoomIn;
 }
 
-
-.filter-item {
-	margin: 0;
-	padding: 0 0 0 18px;
-
-	border: none;
-}
-
 .range-filter {
 	width: 260px;
-	margin-top: 49px;
+	margin: 44px 0 0px 4px;
 }
 
 .filter-item legend {
-	font-size: 18px;
 	font-weight: 700;
 	line-height: 24px;
-
+	font-size: 19px;
 	text-transform: uppercase;
+	margin-left: 4px;
+}
+
+.filter-item{
+	border: none;
 }
 
 .range-controls {
@@ -1252,7 +1247,7 @@ sup {
 .price-controls {
 	font-size: 0;
 
-	margin-bottom: 58px;
+	margin-bottom: 47px;
 }
 
 .price-controls label {
@@ -1295,7 +1290,7 @@ sup {
 
 	width: 1200px;
 	margin: 0 auto;
-	margin-top: 58px;
+	margin-top: 56px;
 
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -1308,7 +1303,7 @@ sup {
 	font-weight: 500;
 	line-height: 18px;
 
-	margin: 2px 0 0 19px;
+	margin: 32px 0 0 19px;
 	padding: 17px 89px;
 
 	cursor: pointer;
@@ -1348,17 +1343,21 @@ sup {
 
 .wrapper-buttons {
 	position: relative;
-
-	padding: 20px 0 0 36px;
+	margin: 4px 0px 6px 4px;
+	padding: 10px 0px 6px 37px
 }
 
 .filter-features {
-	margin: 49px 0 49px;
+	margin: 27px 0px 0px 0px;
+}
+
+.filter-features legend{
+	font-size: 18px;
 }
 
 .wrapper-buttons label::before {
 	position: absolute;
-	bottom: -3px;
+	bottom: 2px;
 	left: 0;
 
 	width: 27px;
@@ -1382,7 +1381,7 @@ sup {
 	display: -ms-flexbox;
 	display: flex;
 
-	margin-bottom: 52px;
+	margin-bottom: 56px;
 
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -1769,10 +1768,6 @@ sup {
 	animation-name: shake;
 }
 
-.filter-item .legend-cost {
-	font-size: 19px;
-}
-
 .active-info {
 	opacity: 1;
 }
@@ -1818,6 +1813,8 @@ sup {
 	background-image: url(../img/checkbox-off.svg);
 	background-repeat: no-repeat;
 	background-position: center;
+
+	left: 6px;
 }
 
 .wrapper-buttons label {
@@ -1928,7 +1925,7 @@ sup {
 }
 
 .filter-wrapper {
-	margin: 1px 0 0 2px;
+	margin: 2px 0 0 2px;
 }
 
 .about-list {
@@ -1953,4 +1950,9 @@ sup {
 
 	width: 100px;
 	margin: 15px 15px 0 0;
+}
+
+.features-button{
+	margin: 14px 0px 0px 0px;
+	padding: 0 0 8px 43px;
 }
