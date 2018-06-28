@@ -318,7 +318,6 @@ a {
 	margin-bottom: 46px;
 	padding-left: 19px;
 
-	white-space: nowrap;
 	text-transform: uppercase;
 }
 
@@ -1961,4 +1960,15 @@ sup {
 
 .catalog-list{
 	margin: 2px 0 0 0;
+}
+
+.about-list .about-title {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+
+	margin-top: 37px;
+	padding-left: 0;
+
+	text-transform: none;
 }
