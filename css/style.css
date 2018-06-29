@@ -1972,3 +1972,8 @@ sup {
 
 	text-transform: none;
 }
+
+.about-percent .percent-title{
+	margin:0;
+	padding-left: 0px;
+}
